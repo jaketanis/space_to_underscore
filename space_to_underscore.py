@@ -29,5 +29,5 @@ for file in os.listdir(path_name):
         os.rename(old_path_name, new_path_name)
         counter += 1
 print("============================================\n")
-print(f"Edited {counter} files. Review the Flare project folder to see changes.")
+print(f"Edited {counter} files.")
 
